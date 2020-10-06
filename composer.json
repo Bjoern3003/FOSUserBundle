@@ -9,6 +9,9 @@
     "license": "MIT",
     "authors": [
         {
+            "name": "Bjoern Fischer"
+        },
+        {
             "name": "Christophe Coevoet",
             "email": "stof@notk.org"
         },
