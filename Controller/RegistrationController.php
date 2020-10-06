@@ -193,10 +193,10 @@ class RegistrationController extends Controller
     /**
      * BC layer for Symfony < 4.3
      *
-     * @param Event $event
+     * @param object $event
      * @param string $eventName
      */
-    private function dispatchWithBC(Event $event, $eventName)
+    private function dispatchWithBC($event, $eventName)
     {
         if ($this->eventDispatcher instanceof ContractsEventDispatcherInterface) {
             $this->eventDispatcher->dispatch($event, $eventName);
